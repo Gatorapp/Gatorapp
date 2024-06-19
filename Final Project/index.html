@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Modern React Templates & Components for building landing pages and UIs - Treact</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div id="root">
+        <div class="app">
+            <div>
+            <section style="transform: none;">
+                <header class="light__header">
+                    <nav class="nav">
+                        <a href="/" class="light__navlinklogo">
+                            <img src="./assets/logo.svg" class="img" alt="logo">
+                            Treact</a>
+                        <div class="light__container">
+                            <ul class="light__navlinks">
+                                <li><a href="#about" class="light__navlink">About</a></li>
+                                <li><a href="#blog" class="light__navlink">Blog</a></li>
+                                <li><a href="#pricing" class="light__navlink">Pricing</a></li>
+                                <li><a href="#contact" class="light__navlink">Contact</a></li>
+                                <li><a href="#login" class="light__navlinklogin">Login</a></li>
+                                <li><a href="signup" class="light__navlinksignup">Sign Up</a></li>
+                            </ul>
+                        <button class="btn__menu" onclick="openMenu()">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="menu__backdrop">
+                            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                                <i class="fas fa-times"></i>
+                            </button>                            
+                                <ul class="menu__links">
+                                    <li class="menu__list"><a href="#about" class="menu__link" onclick="closeMenu()">About</a></li>
+                                    <li class="menu__list"><a href="#blog" class="menu__link" onclick="closeMenu()">Blog</a></li>
+                                    <li class="menu__list"><a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a></li>
+                                    <li class="menu__list"><a href="#contact" class="menu__link" onclick="closeMenu()">Contact</a></li>
+                                    <li class="menu__list"><a href="#login" class="menu__link" onclick="closeMenu()">Login</a></li>
+                                    <li class="menu__list"><a href="signup" class="menu__link light__navlinksignup" onclick="closeMenu()"></a>Sign Up</a></li>
+                                </ul> 
+                        </div>                               
+                        </div>
+                    </nav>
+                </header>
+                <div class="twocolumn__container">
+                    <div class="twocolumn__twosections">
+                        <div class="twocolumn__leftsection">
+                            <h1 class="twocolumn__leftheader">Beautiful React Templates <span class="purple">for you.</span></h1>
+                            <p class="twocolumn__leftpara">Our templates are easy to setup, understand and customize.  Fully modular components with a variety of pages andd components.</p>
+                            <div class="twocolumn__actions">
+                                <input  class="twocolumn__input" type="email" placeholder="Your E-mail Address">
+                                <button class="twocolumn__button">Get Started</button>
+                            </div>
+                            <div class="twocolumn__logostrip">
+                                <p class="ourtrustedcustomers">OUR TRUSTED CUSTOMERS</p>
+                                <img  class="customer__logo" src="./assets/customers-logo.png" alt="Our Customers">
+                            </div>
+                        </div>
+                        <div class="twocolumn__rightsection">
+                            <div class="twocolumn__illustrationcontainer">
+                                <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="Design Illustration" class="twocolumn__styledimg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+            <div>
+            <section style="transform: none;">
+                <div class="threecolumn__container">
+                    <div class="threecolumn__threecolumncontainer">
+                        <h5 class="threecolumn__subheader"><span class="subheader">Features</span></h5>
+                        <h2 class="threecolumn__header">We have Amazing <span class="purple">Service.</span></h2>
+                        <p class="threecolumn__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus debitis consectetur rerum facilis voluptatem corrupti laboriosam incidunt suscipit assumenda.</p>
+                        <div class="threecolumn__spacer"></div>
+                        <div class="threecolumn__column">
+                            <div class="threecolumn__card">
+                                <span class="imagecontainer">
+                                    <img class="iconimg" src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
+                                </span>
+                                <span class="textcontainer">
+                                    <span class="title">Secure</span>
+                                    <p class="description">We strickly only deal with vendors rthat provide top notch security.</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="threecolumn__column">
+                            <div class="threecolumn__card">
+                                <span class="imagecontainer">
+                                    <img class="iconimg" src="./assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="">
+                                </span>
+                                <span class="textcontainer">
+                                    <span class="title">24/7 Support</span>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, possimus?</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="threecolumn__column">
+                            <div class="threecolumn__card">
+                                <span class="imagecontainer">
+                                    <img class="iconimg" src="./assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="">
+                                </span>
+                                <span class="textcontainer">
+                                    <span class="title">Customizable</span>
+                                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, similique!</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="threecolumn__column">
+                            <div class="threecolumn__card">
+                                <span class="imagecontainer">
+                                    <img class="iconimg" src="./assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="">
+                                </span>
+                                <span class="textcontainer">
+                                    <span class="title">Reliable</span>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam veritatis.</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="threecolumn__column">
+                            <div class="threecolumn__card">
+                                <span class="imagecontainer">
+                                    <img class="iconimg"  src="./assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="">
+                                </span>
+                                <span class="textcontainer">
+                                    <span class="title">Fast</span>
+                                    <p class="description">We strickly only deal with vendors rthat provide top notch security.</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="threecolumn__column">
+                            <div class="threecolumn__card">
+                                <span class="imagecontainer">
+                                    <img class="iconimg"  src="./assets/easy.svg" alt="">
+                                </span>
+                                <span class="textcontainer">
+                                    <span class="title">Easy</span>
+                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <g transform="translate(300,300)"><path d="M125,-160.4C159.9,-146.7,184.6,-107.3,178.8,-70.9C173.1,-34.4,137,-0.8,128.8,47.3C120.7,95.5,140.6,158.2,123.8,198.4C107,238.6,53.5,256.3,5.4,248.9C-42.7,241.5,-85.4,208.9,-112.7,172.1C-140,135.3,-151.8,94.2,-146.3,59.7C-140.8,25.1,-117.9,-2.9,-104,-30.1C-90.1,-57.3,-85,-83.7,-69.1,-103.5C-53.3,-123.4,-26.6,-136.7,9.2,-149.4C45.1,-162,90.1,-174,125,-160.4Z" fill="#FFB4BC"></path></g>
+                </div>
+            </section>  
+            </div>
+            <div>
+                <section style="transform: none;">
+                    <div class="sectionthree__container">
+                        <div class="sectionthree__twocolumns">
+                            <div class="sectionthree__columnone">
+                                <img class="sectionthree__image" src="./assets/teact screen shot.png"  alt="">
+                            </div>
+                            <div class="sectionthree__columntwo">
+                                <div class="sectionthree__textcontent">
+                                    <h5 class="sectionthree__subheader"><span class="purple">Quality Work</span></h5>
+                                    <h2 class="sectionthree__header"> Designed & Developed by <span class="purple">Professionals</span></h2>
+                                    <p class="sectionthree__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, repudiandae ullam voluptates explicabo est maxime distinctio repellat eius fugit harum a reiciendis alias! Labore, rem.</p>
+                                    <a href="https://timerse.com" class="sectionthree__primarybutton">Learn More</a>
+                                    <svg viewBox="0 0 1280 1280" class="sectionthree__styledesign"><path d="M55 33.5C44.5 37 35 47.6 32.8 58.3c-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 33.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM55 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 161.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 161.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 161.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM55 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 801.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 801.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 929.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 929.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 1057.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 1057.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6z"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section style="transform: none;">
+                    <div class="twosteps__container">
+                        <div class="twosteps__twocolumns">
+                            <div class="twosteps__imagecolumn">
+                                <img src="./assets/teact laptop screenshot.png" class="twosteps__img" alt="">
+                            </div>
+                            <div class="twosteps__textcolumn">
+                                <div class="twosteps__textcontent">
+                                    <h5 class="twosteps__subheading"><span class="twostep__subheading">Steps</span></h5>
+                                    <h2 class="twosteps__topheading">Easy to <span class="twosteps__topheadings">Get Started</span></h2>
+                                    <ul class="twosteps__steps">
+                                        <li class="twosteps__step">
+                                            <div class="twosteps__number">01</div>
+                                            <div class="twosteps__text">
+                                                <h6 class="twosteps__heading">Register</h6>
+                                                <p class="twosteps__description">Create an account with ususing Google  or Facebook.</p>
+                                            </div>                      
+                                        </li>
+                                        <li class="twosteps__step">
+                                            <div class="twosteps__number">02</div>
+                                            <div class="twosteps__text">
+                                                <h6 class="twosteps__heading">Download</h6>
+                                                <p class="twosteps__description">Browse and Download the template that you like from the marketplace.</p>
+                                            </div>                      
+                                        </li>
+                                        <li class="twosteps__step">
+                                            <div class="twosteps__number">03</div>
+                                            <div class="twosteps__text">
+                                                <h6 class="twosteps__heading">Run</h6>
+                                                <p class="twosteps__description">Follow the instructions to setup and customize the template to your needs.</p>
+                                            </div>                      
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section style="transform: none;">
+                    <div class="values__container">
+                        <div class="values__twocolumns">
+                            <div class="values__picturecolumn">
+                                <img class="values__picture" src="./assets/prototype-illustration.svg"  alt="">
+                            </div>
+                            <div class="values__textcolumn">
+                                <div class="values__textcontent">
+                                    <h5 class="values__subheader">VALUES</h5>
+                                    <h2 class="values__headers">We Always Abide by Our <spa class="purple">Principles.</span></h2>
+                                    <p class="values__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sint eligendi officia harum error eaque praesentium eos officiis. Culpa tempora excepturi qui deserunt consequatur suscipit labore porro corporis doloribus ipsa.</p>
+                                    <div class="values__features">
+                                        <div class="value__feature">
+                                            <div class="values__headingcontainer">
+                                                <div class="values__iconcontainer">
+                                                </div>
+                                                <div class="values__featureheading">Affordable</div>
+                                            </div>
+                                            <div class="values__featuredescription">We promise to offer you the best rate we can - at par with the industry standard.
+                                            </div>
+                                        </div>
+                                        <div class="value__feature">
+                                            <div class="values__headingcontainer">
+                                                <div class="values__iconcontainer">
+                                                </div>
+                                                <div class="values__featureheading">Professionalism</div>
+                                            </div>
+                                            <div class="values__featuredescription">We assure you that our templates are designed and created by professional designers.
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <a href="https://timerse.com" class="values__primarybutton">Learn More</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section style="transform: none;">
+                    <div class="pricing">
+                        <div class="pricing__section">
+                            <div class="pricing__headercontainer">
+                                <h5 class="pricing__subheading"><span class="top__subheading">PRICING</h5>
+                                <h2 class="pricing__header">Reasonable & Flexible <span class="top__header">Plans.</span></h2>
+                                <p class="pricing__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur alias odit magni eius possimus doloremque eaque error maiores incidunt recusandae?</p>
+                            </div>
+                            <div class="pricing__planscontainer">
+                                <div class="pricing__plan">
+                                    <div class="pricing__styled">
+                                    </div>
+                                    <div class="pricing__planheader">
+                                        <span class="name">PERSONAL</span>
+                                        <span class="price">$17.99</span>
+                                        <span class="duration">Monthly</span>
+                                    </div>
+                                    <div class="pricing__features">
+                                        <span class="feature__main">For Individuals</span>
+                                        <span class="Feature">30 Templates</span>
+                                        <span class="Feature">7 Landing Pages</span>
+                                        <span class="Feature">12 Internal Pages</span>
+                                        <span class="Feature">Basic Assistance</span>
+                                    </div>
+                                    <div class="pricing__featureaction"><button class="pricing__button">Buy Now</button>
+                                    </div>
+                                </div>
+                                <div class="pricing__planbus">
+                                    <div class="pricing__styledbus">
+                                    </div>
+                                    <div class="pricing__planheaderbus">
+                                        <span class="namebus">BUSINESS</span>
+                                        <span class="pricebus">$37.99</span>
+                                        <span class="durationbus">Monthly</span>
+                                    </div>
+                                    <div class="pricing__featuresbus">
+                                        <span class="feature__mainbus">For Small Businesses</span>
+                                        <span class="Featurebus">60 Templates</span>
+                                        <span class="Featurebus">15 Landing Pages</span>
+                                        <span class="Featurebus">22 Internal Pages</span>
+                                        <span class="Featurebus">Priority Assistance</span>
+                                    </div>
+                                    <div class="pricing__featureactionbus"><button class="pricing__buttonbus">Buy Now</button>
+                                    </div>
+                                </div>
+                                <div class="pricing__planent">
+                                    <div class="pricing__styledent">
+                                    </div>
+                                    <div class="pricing__planheaderent">
+                                        <span class="nameent">ENTERPRISE</span>
+                                        <span class="priceent">$57.99</span>
+                                        <span class="durationent">Monthly</span>
+                                    </div>
+                                    <div class="pricing__featuresent">
+                                        <span class="feature__mainent">For Large Companies</span>
+                                        <span class="Featureent">90 Templates</span>
+                                        <span class="Featureent">27 Landing Pages</span>
+                                        <span class="Featureent">37 Internal Pages</span>
+                                        <span class="Featureent">Personal Assistance</span>
+                                    </div>
+                                    <div class="pricing__featureactionent"><button class="pricing__buttonent">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section style="transform: none;">
+                    <div class="testimonials">
+                        <div class="testimonial__section">
+                            <div class="testimonial__twocolumns">
+                                <div class="testimonial__picturecolumn">
+                                    <img src="./assets/love-illustration.svg" class="testimonial__pic" alt="">
+                                </div>
+                                <div class="testimonial__testrating">
+                                    <h5 class="testimonial__subheader">TESTIMONIAL</h5>
+                                    <h2 class="testimonial__header">Our Clients <span class="purple">Love Us.</span></h2>
+                                    <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eius aut maiores enim, repellendus, veniam reiciendis sequi harum impedit, adipisci nesciunt qui omnis obcaecati quam.</p>
+                                    <div class="testimonial__starcontainer">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>                                        
+                                    </div>
+                                    <div class="testimonial__testimonialheading">Amazing User Experience
+                                    </div>
+                                    <div class="testimonial__quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam nostrum quam dignissimos placeat quasi sunt at dolorum voluptatem obcaecati, molestiae hic sed saepe ut!</div>
+                                    <div class="testimonial__customercontainer">
+                                        <div class="testimonial__customerinfo">
+                                            <img class="customer__pic" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1…yJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="Charlotte Hale" class="TwoColumnWithImageAndRating__CustomerProfilePicture-sc-1powly-16 OFCMQ">
+                                            <div class="testimonial__customertext">
+                                                <h5 class="testimonial__customername">Charlotte Hale</h5>
+                                                <p class="testimonial__customertitle">Director, Delos Inc.</p>
+                                            </div>                                        
+                                        <div class="testimonial__btn">
+                                        <button class="testimonial__button"><i class="fas fa-arrow-left"></i></button>
+                                        <div class="divider"></div>
+                                        <button class="testimonial__button"><i class="fas fa-arrow-right"></i></button>
+                                        </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </section>
+            </div>
+            <div>
+                <div class="faqs">
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
