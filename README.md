@@ -4,9 +4,9 @@ Hi 👋 My name is Amit Patel
 Front-end Developer
 -------------------
 
-Front End Developer with \[1 year\] and enjoy the functionality of the websites and adding interactivity, animation, and more of my touch to the site. I might just be starting out with my new venture, but am excited to learn more and work on many more developments with others in the future.
+Front End Developer with 1 year and enjoy the functionality of the web developing and adding interactivity, animation, and more to the sites. I might just be starting out with my new venture, but am excited to learn more and work on many more developments with others in the future.
 
-* 🌍  I'm based in Mississippi
+* 🌍  I'm based in Mississippi (work remotely)
 * ✉️  You can contact me at [amit.p.patel79@gmail.com](mailto:amit.p.patel79@gmail.com)
 
 ### Skills
