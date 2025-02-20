@@ -6,7 +6,7 @@ Front-end Developer
 
 I am a Front End Developer with 1 year experience who enjoys building webpages with the functionality of the web developing and adding interactivity, animation, and more to the sites. I might just be starting out with my new venture, but am excited to learn more and work on many more developments with others in the future.
 
-* 🌍  I'm based in Mississippi (work remotely)
+* 🌍  I'm based in Mississippi 
 * ✉️  You can contact me at [amit.p.patel79@gmail.com](mailto:amit.p.patel79@gmail.com)
 
 ### Skills
